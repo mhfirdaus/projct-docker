@@ -41,6 +41,6 @@ jobs:
             # Hapus kontainer lama jika ada
             docker rm -f portal-app || true
             # Tarik Image BARU dari Docker Hub (Ganti username_dockerhub!)
-            docker pull username_dockerhub/web-portal-kampus:latest
+            docker pull mohfi45/web-portal-nim:latest
             # Jalankan Image di Port 80
-            docker run -d -p 80:80 --name portal-app username_dockerhub/web-portal-kampus:latest
+            docker run -d -p 80:80 --name portal-app mohfi45/web-portal-nim:latest
