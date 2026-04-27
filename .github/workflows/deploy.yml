@@ -24,7 +24,7 @@ jobs:
           context: .
           push: true
           # Ganti "username_dockerhub" dengan milik Anda!
-          tags: username_dockerhub/web-portal-kampus:latest
+          tags: mohfi45/web-portal-nim:latest
 
   # TUGAS 2: MENYURUH AWS MENGAMBIL BARANG (CD)
   deploy-to-ec2:
